@@ -12,3 +12,4 @@ https://www.figma.com/file/Yd9xSvsR8UOL16upcb20tS/stock_manage?node-id=0%3A1
 
 
 초기설정시 실행 안 되던 이유가 프로젝트가 속한 파일이 "바탕 화면" 이었기 때문에 한글이름 파일이라 경로의 폰트가 깨져서 발생한 오류였음
+choco로 node패키지 설치하면 LTS버전이 아닌 가장 최근 버전이 설치됨 -> 17이상 버전은 npx react-native run-android시 에뮬레이터 실행 안 됨, node.js삭제하고 LTS버전으로 바꿔줘야 함.
